@@ -8,7 +8,12 @@ LiftLog
 
 ## Project Description
 
-The idea of this website is to give the user the ability to keep track of their weightlifting workouts. At it's most basic it will act as a virtual notebook. The idea is that the user will be able to submit the following: The "Day" so the literal date and/or
+The idea of this website is to give the user the ability to keep track of their weightlifting workouts. At it's most basic it will act as a virtual notebook. The idea is that the user will be able to submit the following:
+The "Day" the literal date and/or "Day" of a program they are following.
+The lift: user-provided text input becuase everyone does things differently. Ex, "Bench Press".
+Reps: How many reps of the exercise they are doing. Ex 5\*5 etc.
+Notes: A text input for misc notes.
+On the homepage the user can see the basics of their most recently created submissions such as Day and Lift, and the on click it will expand to show more detail.
 
 ## Wireframes
 
