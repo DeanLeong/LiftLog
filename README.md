@@ -17,7 +17,7 @@ On the homepage the user can see the basics of their most recently created submi
 
 ## Wireframes
 
-![](https://imgur.com/a/yF7uOXF)
+https://imgur.com/a/yF7uOXF
 
 ## Component Hierarchy
 
