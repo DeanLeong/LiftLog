@@ -1,6 +1,7 @@
 import React from "react"
 import { Route } from "react-router-dom"
 import './App.css';
+import Calculator from "./Calculator"
 import Header from "./Header"
 import SavedWorkouts from "./SavedWorkouts"
 import SubmitWorkout from "./SubmitWorkout"
@@ -15,7 +16,7 @@ function App() {
       <div className="Header">
         <Header />
       </div>
-      <div className="SubmitWorkout">
+      <div>
       <Route exact path="/SubmitWorkout">
         <SubmitWorkout />
       </Route>
@@ -24,6 +25,11 @@ function App() {
       <Route exact path="/SavedWorkouts">
         <SavedWorkouts />
       </Route>
+      <div className="Calculator">
+        <Route exact path="/Calculator">
+          <Calculator />
+        </Route>
+      </div>  
       </div>
     </div>
   )

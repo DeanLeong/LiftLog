@@ -40,49 +40,51 @@ function SubmitWorkout(props) {
   }
 
   return (
+    <div className="submit-workout">
     <form onSubmit={handleSubmit}>
-      <label htmlFor="Day">Day:</label>
-      <input
+      <label className="formLabel" htmlFor="Day">Day:</label>
+      <input className="formInput"
         name="Day"
         type="text"
         placeholder="Day"
         value={day}
         onChange={(e) => setDay(e.target.value)}
       />
-      <label htmlFor="Exercise">Exercise:</label>
-      <input
+      <label className="formLabel" htmlFor="Exercise">Exercise:</label>
+      <input className="formInput"
         name="Exercise"
         type="text"
         placeholder="Exercise Name"
         value={exercise}
         onChange={(e) => setExercise(e.target.value)}
       />
-      <label htmlFor="Weight">Weight:</label>
-      <input
+      <label className="formLabel" htmlFor="Weight">Weight:</label>
+      <input className="formInput"
         name="Weight"
         type="text"
         placeholder="Weight"
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       />
-      <label htmlFor="Reps">Reps:</label>
-      <input
+      <label className="formLabel" htmlFor="Reps">Reps:</label>
+      <input className="formInput"
         name="Reps"
         type="text"
         placeholder="Reps"
         value={weight}
         onChange={(e) => setReps(e.target.value)}
       />
-      <label htmlFor="Notes">Notes:</label>
-      <input
+      <label className="formLabel" htmlFor="Notes">Notes:</label>
+      <input className="formInput"
         name="Notes"
         type="text"
         placeholder="Notes"
         value={weight}
         onChange={(e) => setNotes(e.target.value)}
       />
-      <button type="submit">Submit Workout</button>
-    </form>
+      <button type="submit" className="formSubmitButton">Submit Workout</button>
+      </form>
+      </div>
   )
 }
 
