@@ -17,7 +17,7 @@ On the homepage the user can see the basics of their most recently created submi
 
 ## Wireframes
 
-https://imgur.com/a/yF7uOXF
+![](https://imgur.com/a/yF7uOXF)
 
 ## Component Hierarchy
 
@@ -27,7 +27,7 @@ https://imgur.com/a/yF7uOXF
 
 https://airtable.com/tbluhjztK95AS1HEe/viwY9qxc21uDKTFVo?blocks=hide
 
-https://i.imgur.com/QVLFTyF.png
+![](https://i.imgur.com/QVLFTyF.png)
 
 ### MVP/PostMVP
 
