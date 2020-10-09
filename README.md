@@ -21,7 +21,7 @@ https://imgur.com/a/yF7uOXF
 
 ## Component Hierarchy
 
-https://i.imgur.com/WHMkfnF.png.
+![](https://i.imgur.com/WHMkfnF.png)
 
 ## API and Data Sample
 
