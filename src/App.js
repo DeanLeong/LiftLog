@@ -12,9 +12,9 @@ function App() {
       <h1 className="Header">LiftLog</h1>
         <nav>
           <button>Home</button>
-          <Link to={`/SavedWorkouts`}>
-            <button>Saved workouts</button>
-          </Link>
+          <button>
+            <Link to={`/SavedWorkouts`}>Saved workouts</Link>
+          </button>
           <button>lb to kg calculator</button>
         </nav>
       </div>

@@ -24,13 +24,20 @@ function SavedWorkouts(props) {
     <div>
     <div>
         <h1>LiftLog</h1>
-        <Route exact path="/">
           <h2>Saved Workouts</h2>
-        </Route>
         <nav>
-          Home |
-          Saved workouts |
-          lb to kg calculator |
+        <div>
+      <div>
+      <h1 className="Header">LiftLog</h1>
+        <nav>
+        <button>Home</button>
+          <button>
+            <Link>Saved workouts</Link>
+          </button>
+          <button>lb to kg calculator</button>
+        </nav>
+      </div>
+    </div>
         </nav>
     </div>
     <div className="savedWorkouts">
