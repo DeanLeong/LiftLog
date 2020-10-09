@@ -35,13 +35,18 @@ https://airtable.com/tbluhjztK95AS1HEe/viwY9qxc21uDKTFVo?blocks=hide
 
 MVP:
 1 - A homepage including the submission form and a navbar to the other pages.
-2 - A "Saved Workouts" page of the previously submitted workouts, navbar to other pages.
-3 - A lg to kg calculator page, navbar to other pages.
+
+2 - A "Saved Workouts" page of the previously submitted workouts.
+
+3 - Navbar to other pages.
+
+4 - A lg to kg calculator page, navbar to other pages.
 
 #### PostMVP
 
 Post MVP:
-1 - More detailed submission forms, for example, more
+1 - More detailed submission forms, for example, the ability to add more exercises under the same day.
+
 2 - See more and see less buttons for the saved workouts.
 
 ## Project Schedule
