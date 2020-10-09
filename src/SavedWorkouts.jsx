@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { Link, BrowserRouter as Router, Route} from "react-router-dom"
 import axios from "axios"
 
 function SavedWorkouts(props) { 
