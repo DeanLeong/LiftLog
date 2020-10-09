@@ -31,7 +31,7 @@ function SubmitWorkout(props) {
         }
       }
     )
-    props.setFetchLiftLogs(!props.fetchLiftLogs)
+    //props.setFetchLiftlog(!props.fetchLiftLogs) I guess I don't need this
     setDay("")
     setExercise("")
     setWeight("")
@@ -42,7 +42,7 @@ function SubmitWorkout(props) {
   return (
     <div className="submit-workout">
     <form onSubmit={handleSubmit}>
-      <label className="formLabel" htmlFor="Day">Day:</label>
+      <label className="form-label" htmlFor="Day">Day:</label>
       <input className="formInput"
         name="Day"
         type="text"
@@ -50,39 +50,39 @@ function SubmitWorkout(props) {
         value={day}
         onChange={(e) => setDay(e.target.value)}
       />
-      <label className="formLabel" htmlFor="Exercise">Exercise:</label>
-      <input className="formInput"
+      <label className="form-label" htmlFor="Exercise">Exercise:</label>
+      <input className="form-input"
         name="Exercise"
         type="text"
         placeholder="Exercise Name"
         value={exercise}
         onChange={(e) => setExercise(e.target.value)}
       />
-      <label className="formLabel" htmlFor="Weight">Weight:</label>
-      <input className="formInput"
+      <label className="form-label" htmlFor="Weight">Weight:</label>
+      <input className="form-input"
         name="Weight"
         type="text"
         placeholder="Weight"
         value={weight}
         onChange={(e) => setWeight(e.target.value)}
       />
-      <label className="formLabel" htmlFor="Reps">Reps:</label>
-      <input className="formInput"
+      <label className="form-label" htmlFor="Reps">Reps:</label>
+      <input className="form-input"
         name="Reps"
         type="text"
         placeholder="Reps"
-        value={weight}
+        value={reps}
         onChange={(e) => setReps(e.target.value)}
       />
-      <label className="formLabel" htmlFor="Notes">Notes:</label>
-      <input className="formInput"
+      <label className="form-label" htmlFor="Notes">Notes:</label>
+      <input className="form-input"
         name="Notes"
         type="text"
         placeholder="Notes"
-        value={weight}
+        value={notes}
         onChange={(e) => setNotes(e.target.value)}
       />
-      <button type="submit" className="formSubmitButton">Submit Workout</button>
+      <button type="submit" className="form-submit-button">Submit Workout</button>
       </form>
       </div>
   )

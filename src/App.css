@@ -13,11 +13,11 @@
   border: 1px solid black;
 }
 
-.formLabel {
+.form-label {
   display: flex;
 }
 
-.formSubmitButton {
+.form-submit-button {
   display: flex;
   flex-direction: column;
   justify-content: center;

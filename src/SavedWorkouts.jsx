@@ -24,11 +24,11 @@ function SavedWorkouts(props) {
       <h2>Saved Workouts</h2>
     <div className="savedWorkouts">
         {workouts.map((workout) => (
-          <p>{workout.fields.Day},
-            {workout.fields.Exercise},
-            {workout.fields.Weight},
-            {workout.fields.Reps},
-            {workout.fields.Notes} </p>
+          <p>{workout.fields.day},
+            {workout.fields.exercise},
+            {workout.fields.weight},
+            {workout.fields.reps},
+            {workout.fields.notes} </p>
  
         ))}
     </div>
