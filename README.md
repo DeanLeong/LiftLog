@@ -27,7 +27,7 @@ https://imgur.com/a/yF7uOXF
 
 https://airtable.com/tbluhjztK95AS1HEe/viwY9qxc21uDKTFVo?blocks=hide
 
-![](https://i.imgur.com/QVLFTyF.png)
+![](https://i.imgur.com/bDI4VZs.png)
 
 ### MVP/PostMVP
 
@@ -94,7 +94,7 @@ I have a strong sense for planning and the ability to get started on a project.
 
 ### Weaknesses:
 
-I get stuck a lot.
+I frequently hit walls when coding.
 
 ### Opportunities:
 
