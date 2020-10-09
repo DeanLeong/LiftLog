@@ -45,6 +45,7 @@ MVP:
 #### PostMVP
 
 Post MVP:
+
 1 - More detailed submission forms, for example, the ability to add more exercises under the same day.
 
 2 - See more and see less buttons for the saved workouts.
@@ -76,14 +77,18 @@ Post MVP:
 | CSS Styling           |    l     |     10hrs      |       0       |      0      |
 | Total                 |    H     |     50hrs      |     5hrs      |    5hrs     |
 
-Priotiry Matrix:
+Priortiry Matrix:
 ![](https://i.imgur.com/COaiIzy.png)
 
 General Notes on Plan:
 1 - Set up Basics of the "Home Page" This includes the header, NavBar and the submission form.
+
 2 - Get the submission form working. Since the content of the "Show page" is going to be user-generated the submission form must be functional.
+
 3 - Get the show page working. This means that the data submitted on the home page should render on the show page.
+
 4 - Get the lb to kg calculator page working.
+
 5 - CSS styling. Basic styling will be done as I go, the overall styling will be done after the JS/React is done.
 
 ## SWOT Analysis
