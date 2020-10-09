@@ -72,7 +72,7 @@ Post MVP:
 | Total                 |    H     |     50hrs      |     5hrs      |    5hrs     |
 
 Priotiry Matrix:
-https://i.imgur.com/COaiIzy.png
+![](https://i.imgur.com/COaiIzy.png)
 
 ## SWOT Analysis
 
