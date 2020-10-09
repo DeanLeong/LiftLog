@@ -38,9 +38,9 @@ MVP:
 
 2 - A "Saved Workouts" page of the previously submitted workouts.
 
-3 - Navbar to other pages.
+3 - Navbar to other pages - availible on all pages.
 
-4 - A lg to kg calculator page, navbar to other pages.
+4 - A lg to kg calculator page.
 
 #### PostMVP
 
