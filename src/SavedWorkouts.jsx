@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Link, Route } from "react-router-dom"
+import { Link, BrowserRouter as Router, Route} from "react-router-dom"
 import axios from "axios"
 
 function SavedWorkouts(props) { 
@@ -22,24 +22,7 @@ function SavedWorkouts(props) {
   
   return (
     <div>
-    <div>
-        <h1>LiftLog</h1>
-          <h2>Saved Workouts</h2>
-        <nav>
-        <div>
-      <div>
-      <h1 className="Header">LiftLog</h1>
-        <nav>
-        <button>Home</button>
-          <button>
-            <Link>Saved workouts</Link>
-          </button>
-          <button>lb to kg calculator</button>
-        </nav>
-      </div>
-    </div>
-        </nav>
-    </div>
+      <h2>Saved Workouts</h2>
     <div className="savedWorkouts">
         {workouts.map((workout) => (
           <p>{workout.fields.Day},
