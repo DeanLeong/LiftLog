@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Link, Route } from "react-router-dom"
 import axios from "axios"
 
 function SavedWorkouts(props) { 
@@ -23,6 +24,9 @@ function SavedWorkouts(props) {
     <div>
     <div>
         <h1>LiftLog</h1>
+        <Route exact path="/">
+          <h2>Saved Workouts</h2>
+        </Route>
         <nav>
           Home |
           Saved workouts |
