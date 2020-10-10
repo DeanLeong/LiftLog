@@ -10,10 +10,10 @@ function Header() {
           <Link to={`/SubmitWorkout`}>Submit Workout</Link>
         </button>
         <button>
-          <Link to={`/SavedWorkouts`}>Saved workouts</Link>
+          <Link to={`/SavedWorkouts`}>Saved Workouts</Link>
         </button>
         <button>
-          <Link to={`/Calculator`}>lb to kg calculator</Link>
+          <Link to={`/Calculator`}>Weight Calculators</Link>
         </button>
       </nav>
     </div>
