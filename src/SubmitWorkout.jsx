@@ -40,6 +40,8 @@ function SubmitWorkout(props) {
   }
 
   return (
+    <div>
+      <h2>Submit A Workout</h2>
     <div className="submit-workout">
     <form onSubmit={handleSubmit}>
       <label className="form-label" htmlFor="Day">Day:</label>
@@ -85,6 +87,7 @@ function SubmitWorkout(props) {
       <button type="submit" className="form-submit-button">Submit Workout</button>
       </form>
       </div>
+    </div>
   )
 }
 

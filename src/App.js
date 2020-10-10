@@ -1,5 +1,5 @@
 import './App.css';
-import Calculator from "./Calculator"
+import Calculator from "./Calculators"
 import Header from "./Header"
 import React from "react"
 import { Route } from "react-router-dom"
