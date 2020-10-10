@@ -12,7 +12,7 @@ function SavedWorkouts(props) {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
         }
       })
-      console.log(response.data.records)
+      //console.log(response.data.records)
       setWorkouts(response.data.records)
     }
     getWorkouts()

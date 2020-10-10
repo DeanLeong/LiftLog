@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 
 function Calculators() {
-  const [value, setValue] = useState("")
+  const [lbsValue, setLbsValue] = useState("")
+  const [kgsValue, setKgsValue] = useState("")
 
   // function lbsToKgs() {
   //   let kgs = value / 2.2046
@@ -21,12 +22,12 @@ function Calculators() {
           name="Pounds"
           type="text"
           placeholder="Pounds"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
+          value={lbsValue}
+          onChange={(e) => setLbsValue(e.target.value)}
         />
           <button type="submit" className="lbs-to-kgs-submit">Calculate</button>
       </form>
-        <p>{value / 2.2046}</p>
+        <p>Result: {lbsValue / 2.2046}</p>
       </div>
       <div className="kgs-to-lbs">
         <form>
@@ -36,12 +37,12 @@ function Calculators() {
           name="Kilograms"
           type="text"
           placeholder="Kilograms"
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
+          value={kgsValue}
+          onChange={(e) => setKgsValue(e.target.value)}
         />
           <button type="submit" className="kgs-to-lbs-submit">Calculate</button>
         </form>
-        <p>{value * 2.2046}</p>
+        <p>Result: {kgsValue * 2.2046}</p>
         </div>
     </div>
   )
