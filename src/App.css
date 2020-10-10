@@ -47,3 +47,21 @@
 .submit-workout {
   margin-top: 25px;
 }
+
+.lbs-to-kgs {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  height: 250px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.kgs-to-lbs {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  height: 250px;
+  width: 300px;
+  border: 1px solid black;
+}
