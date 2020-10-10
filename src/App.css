@@ -51,17 +51,23 @@
 .lbs-to-kgs {
   display: grid;
   grid-template-rows: auto;
-  justify-content: center;
+  border: 1px solid black;
   height: 250px;
   width: 300px;
-  border: 1px solid black;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .kgs-to-lbs {
   display: grid;
   grid-template-rows: auto;
-  justify-content: center;
+  border: 1px solid black;
   height: 250px;
   width: 300px;
-  border: 1px solid black;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
