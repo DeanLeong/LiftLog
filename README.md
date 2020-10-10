@@ -69,13 +69,13 @@ Post MVP:
 
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
-| Working with API      |    H     |      5hrs      |       0       |      0      |
-| Homepage              |    H     |     10hrs      |       0       |      0      |
-| Submit Form           |    H     |     10hrs      |       0       |      0      |
-| Saved Page            |    H     |     15hrs      |       0       |      0      |
-| Render Saved Workouts |    H     |     10hrs      |       0       |      0      |
-| CSS Styling           |    l     |     10hrs      |       0       |      0      |
-| Total                 |    H     |     50hrs      |     5hrs      |    5hrs     |
+| Working with API      |    H     |      5hrs      |      2.5      |     2.5     |
+| Homepage              |    H     |     10hrs      |       4       |      4      |
+| Submit Form           |    H     |     10hrs      |       2       |      2      |
+| Saved Page            |    H     |     15hrs      |       6       |      6      |
+| Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
+| CSS Styling           |    l     |     10hrs      |       5       |      5      |
+| Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
 
 Priortiry Matrix:
 ![](https://i.imgur.com/COaiIzy.png)
