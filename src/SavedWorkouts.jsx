@@ -18,18 +18,18 @@ function SavedWorkouts(props) {
     getWorkouts()
   }, [])
 
-  
+  //Why does this return out of order?
   return (
     <div>
       <h2>Saved Workouts</h2>
-    <div className="savedWorkouts">
+    <div className="saved-workouts">
         {workouts.map((workout) => (
           <div className="saved-workout-container">
-            <p>{workout.fields.day}</p>
-            <p>{workout.fields.exercise}</p>
-            <p>{workout.fields.weight}</p>
-            <p>{workout.fields.reps}</p>
-            <p>{workout.fields.notes}</p>
+            <p>Day: {workout.fields.day}</p>
+            <p>Exercise: {workout.fields.exercise}</p>
+            <p>Weight: {workout.fields.weight}</p>
+            <p>Reps: {workout.fields.reps}</p>
+            <p>Notes: {workout.fields.notes}</p>
           </div>
         ))}
     </div>

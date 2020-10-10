@@ -22,4 +22,24 @@
   flex-direction: column;
   justify-content: center;
   margin: 10px;
+  margin-left: 95px;
+}
+
+.saved-workouts {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 25px;
+}
+
+.saved-workout-container {
+  display: grid;
+  grid-template-rows: auto;
+  border: 1px solid black;
+  height: 250px;
+  width: 300px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }

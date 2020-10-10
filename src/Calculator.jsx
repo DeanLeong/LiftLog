@@ -2,7 +2,12 @@ import React from "react"
 
 function Calculator() {
   return (
-    <div></div>
+    <div>
+      <h2>Weight Calculators</h2>
+      <form>
+
+      </form>
+    </div>
   )
 }
 
