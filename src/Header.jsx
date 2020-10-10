@@ -6,15 +6,15 @@ function Header() {
     <div>
       <h1>LiftLog</h1>
       <nav>
-        <button>
-          <Link to={`/SubmitWorkout`}>Submit Workout</Link>
+        <button className="nav-buttons">
+          <Link to={`/SubmitWorkout`} className="nav-buttons">Submit Workout</Link>
         </button>
-        <button>
-          <Link to={`/SavedWorkouts`}>Saved Workouts</Link>
+        <button className="nav-buttons">
+          <Link to={`/SavedWorkouts`} className="nav-buttons">Saved Workouts</Link>
         </button>
-        <button>
-          <Link to={`/Calculator`}>Weight Calculators</Link>
-        </button>
+        <button className="nav-buttons">
+          <Link to={`/Calculator`} className="nav-buttons">Weight Calculators</Link>
+          </button>
       </nav>
     </div>
   );

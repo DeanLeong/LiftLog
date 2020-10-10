@@ -11,8 +11,8 @@ function Calculators() {
   // }
   // lbsToKgs()
 
+  
   //How to get the calcs to run on click?
-
   return (
     <div>
       <h2>Weight Calculators</h2>

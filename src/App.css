@@ -3,6 +3,10 @@
   background-color: #3891a6;
 }
 
+.nav-buttons {
+  background-color: #db5461;
+}
+
 .submit-workout {
   display: flex;
   flex-direction: column;
