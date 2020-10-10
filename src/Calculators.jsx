@@ -13,18 +13,36 @@ function Calculators() {
   return (
     <div>
       <h2>Weight Calculators</h2>
-      <form>
+      <div className="lbs-to-kgs">
+        <form>
+          <h3>Pounds to Kilograms</h3>
         <label htmlFor="lbsToKgs">Lbs:</label>
-        <input className="lbsInput"
+        <input className="lbs-input"
           name="Pounds"
           type="text"
           placeholder="Pounds"
           value={value}
           onChange={(e) => setValue(e.target.value)}
         />
-        <button type="submit" className="lbs-to-kgs-submit">Calculate</button>
+          <button type="submit" className="lbs-to-kgs-submit">Calculate</button>
       </form>
-      <p>{value / 2.2046}</p>
+        <p>{value / 2.2046}</p>
+      </div>
+      <div className="kgs-to-lbs">
+        <form>
+        <h3>Kilograms to Pounds</h3>
+        <label htmlFor="kgsToLbs">Kgs:</label>
+        <input className="kgsInput"
+          name="Kilograms"
+          type="text"
+          placeholder="Kilograms"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+        />
+          <button type="submit" className="kgs-to-lbs-submit">Calculate</button>
+        </form>
+        <p>{value * 2.2046}</p>
+        </div>
     </div>
   )
 }
