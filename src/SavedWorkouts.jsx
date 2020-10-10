@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
+import baseURL from "./constants"
 
 function SavedWorkouts(props) { 
   const [workouts, setWorkouts] = useState([])
+  const [deleted, setDeleted] = useState(false)
 
   useEffect(() => {
     const getWorkouts = async () => {
@@ -18,7 +20,21 @@ function SavedWorkouts(props) {
     getWorkouts()
   }, [])
 
-  //Why does this return out of order?
+  const handleDelete = async () => {
+    setDeleted(true)
+    setTimeout(async () => {
+      const airtableURL = `${baseURL}/${props.liftlog.id}`
+      await axios.delete(airtableURL, {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
+        }
+      })
+      props.setFetchLifts((prevFetchLifts) => !prevFetchLifts)
+      setDeleted(false)
+    }, 2000)
+  }
+
+  //How to get this organized by most recently submitted?
   return (
     <div>
       <h2>Saved Workouts</h2>
@@ -30,6 +46,7 @@ function SavedWorkouts(props) {
             <p>Weight: {workout.fields.weight}</p>
             <p>Reps: {workout.fields.reps}</p>
             <p>Notes: {workout.fields.notes}</p>
+            <button onClick={handleDelete}>{deleted ? "Deleted" : "Delete"}</button>
           </div>
         ))}
     </div>
