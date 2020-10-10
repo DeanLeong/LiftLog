@@ -34,13 +34,13 @@ https://airtable.com/tbluhjztK95AS1HEe/viwY9qxc21uDKTFVo?blocks=hide
 #### MVP
 
 MVP:
-1 - A homepage including the submission form and a navbar to the other pages.
+1 - A homepage including the submission form and a navbar to the other pages. -Done
 
-2 - A "Saved Workouts" page of the previously submitted workouts.
+2 - A "Saved Workouts" page of the previously submitted workouts. -Almost done need delete button functionality
 
-3 - Navbar to other pages - availible on all pages.
+3 - Navbar to other pages - availible on all pages. - done
 
-4 - A lg to kg calculator page.
+4 - A lg to kg calculator page. -Almost done need to run on click rather than all the time
 
 #### PostMVP
 

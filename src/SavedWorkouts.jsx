@@ -51,7 +51,7 @@ function SavedWorkouts(props) {
             <p>Weight: {workout.fields.weight}</p>
             <p>Reps: {workout.fields.reps}</p>
             <p>Notes: {workout.fields.notes}</p>
-            <button onClick={handleDelete}>Delete</button>
+            <button onClick={handleDelete} className="delete-button">Delete</button>
           </div>
         ))}
     </div>

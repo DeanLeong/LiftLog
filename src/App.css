@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  background-color: #3891a6;
 }
 
 .submit-workout {
@@ -30,6 +31,7 @@
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 25px;
+  background-color: #db5461;
 }
 
 .saved-workout-container {
@@ -42,6 +44,10 @@
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.delete-button {
+  background-color: #4c5b5c;
 }
 
 .submit-workout {
