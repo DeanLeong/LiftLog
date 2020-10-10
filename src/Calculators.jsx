@@ -16,6 +16,7 @@ function Calculators() {
   return (
     <div>
       <h2>Weight Calculators</h2>
+      <div className="calculators">
       <div className="lbs-to-kgs">
         <form>
           <h3>Pounds to Kilograms</h3>
@@ -45,6 +46,7 @@ function Calculators() {
           <button type="submit" className="kgs-to-lbs-submit">Calculate</button>
         </form>
         <p>Result: {kgsValue * 2.2046}</p>
+        </div>
         </div>
     </div>
   )

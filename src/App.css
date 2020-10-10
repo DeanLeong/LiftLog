@@ -48,6 +48,11 @@
   margin-top: 25px;
 }
 
+.calculators {
+  display: flex;
+  justify-content: center;
+}
+
 .lbs-to-kgs {
   display: grid;
   grid-template-rows: auto;
