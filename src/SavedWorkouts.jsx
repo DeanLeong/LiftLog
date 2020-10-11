@@ -5,7 +5,7 @@ import axios from "axios"
 
 function SavedWorkouts(props) { 
   const [workouts, setWorkouts] = useState([])
-  const [deleted, setDeleted] = useState(false)
+  
   
 
   useEffect(() => {
@@ -21,25 +21,27 @@ function SavedWorkouts(props) {
     }
     getWorkouts()
   }, [])
-  console.log(workouts)
+  //console.log(workouts)
 
-  //how to get this delete button to work? Like 28 is like line 7 from showpage birds
-  const handleDelete = async () => {
+  //second try at a delete function
+  // function handleDelete() {
+  //   const [deleted, setDeleted] = useState(false)
 
-    setDeleted(true)
-    setTimeout(async () => {
-      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog/${workouts.fields.id}`
-      await axios.delete(airtableURL, {
-        headers: {
-          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
-        }
-      })
-      props.setGetWorkouts((prevGetWorkouts) => !prevGetWorkouts)
-      setDeleted(false)
-    })
-  }
+  //   setDeleted(true)
+  //   setTimeout(async () => {
+  //     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog/${workouts.fields.id}`
+  //     await axios.delete(airtableURL, {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
+  //       }
+  //     })
+  //     setDeleted(false)
+  //   }, 1000)
+  // }
 
   //How to get this organized by most recently submitted?
+  //onclick needs to be an anon callback function argument needs to be passed an argument
+  //function within the button itself - each individual bttn needs to contain the info of what needs to be deleted
   return (
     <div>
       <h2>Saved Workouts</h2>
@@ -51,7 +53,7 @@ function SavedWorkouts(props) {
             <p>Weight: {workout.fields.weight}</p>
             <p>Reps: {workout.fields.reps}</p>
             <p>Notes: {workout.fields.notes}</p>
-            <button onClick={handleDelete} className="delete-button">Delete</button>
+            {/* <button onClick={handleDelete} className="delete-button">Delete</button> */}
           </div>
         ))}
     </div>
@@ -61,3 +63,21 @@ function SavedWorkouts(props) {
 }
 
 export default SavedWorkouts
+
+
+
+  //how to get this delete button to work? Like 28 is like line 7 from showpage birds - doesn't work but also doesn't break code
+  // const handleDelete = async () => {
+
+  //   setDeleted(true)
+  //   setTimeout(async () => {
+  //     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog/${workouts.fields.id}`
+  //     await axios.delete(airtableURL, {
+  //       headers: {
+  //         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
+  //       }
+  //     })
+  //     props.setGetWorkouts((prevGetWorkouts) => !prevGetWorkouts)
+  //     setDeleted(false)
+  //   }, 1000)
+  // }

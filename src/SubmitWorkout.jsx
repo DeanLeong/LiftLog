@@ -45,7 +45,7 @@ function SubmitWorkout(props) {
     <div className="submit-workout">
     <form onSubmit={handleSubmit} className="submit-form">
       <label className="form-label" htmlFor="Day">Day:</label>
-      <input className="formInput"
+      <input className="form-input"
         name="Day"
         type="text"
         placeholder="Day"

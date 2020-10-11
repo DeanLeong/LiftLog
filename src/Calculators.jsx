@@ -28,7 +28,7 @@ function Calculators() {
           value={lbsValue}
           onChange={(e) => setLbsValue(e.target.value)}
         />
-          <button type="submit" className="lbs-to-kgs-submit">Calculate</button>
+          {/* <button type="submit" className="lbs-to-kgs-submit">Calculate</button> */}
       </form>
         <p>Result: {lbsValue / 2.2046}</p>
       </div>
@@ -43,7 +43,7 @@ function Calculators() {
           value={kgsValue}
           onChange={(e) => setKgsValue(e.target.value)}
         />
-          <button type="submit" className="kgs-to-lbs-submit">Calculate</button>
+          {/* <button type="submit" className="kgs-to-lbs-submit">Calculate</button> */}
         </form>
         <p>Result: {kgsValue * 2.2046}</p>
         </div>

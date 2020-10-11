@@ -16,10 +16,20 @@
   padding: 10px;
   margin: 0 auto;
   border: 1px solid black;
+  background-color: #db5461;
 }
 
 .form-label {
   display: flex;
+  background-color: #db5461;
+}
+
+.submit-form {
+  background-color: #db5461;
+}
+
+.form-input {
+  background-color: white;
 }
 
 .form-submit-button {
@@ -51,7 +61,7 @@
 }
 
 .delete-button {
-  background-color: #4c5b5c;
+  background-color: #fde74c;
 }
 
 .submit-workout {
