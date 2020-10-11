@@ -40,7 +40,7 @@ MVP:
 
 3 - Navbar to other pages - availible on all pages. - done
 
-4 - A lg to kg calculator page. -Almost done need to run on click rather than all the time
+4 - A lg to kg calculator page. -Done (unless I want to change to onclick instead of onchange?)
 
 #### PostMVP
 
@@ -49,6 +49,8 @@ Post MVP:
 1 - More detailed submission forms, for example, the ability to add more exercises under the same day.
 
 2 - See more and see less buttons for the saved workouts.
+
+3 - Search through saved workouts?
 
 ## Project Schedule
 
@@ -72,7 +74,7 @@ Post MVP:
 | Working with API      |    H     |      5hrs      |      2.5      |     2.5     |
 | Homepage              |    H     |     10hrs      |       4       |      4      |
 | Submit Form           |    H     |     10hrs      |       2       |      2      |
-| Saved Page            |    H     |     15hrs      |       6       |      6      |
+| Saved Page            |    H     |     15hrs      |      7.5      |     7.5     |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
 | CSS Styling           |    l     |     10hrs      |       5       |      5      |
 | Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
