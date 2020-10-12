@@ -13,7 +13,7 @@ function SavedWorkouts(props) {
 
   useEffect(() => {
     const getWorkouts = async () => {
-      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog`
+      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog?sort%5B0%5D%5Bfield%5D=createdAt&sort%5B0%5D%5Bdirection%5D=desc`
       const response = await axios.get(airtableURL, {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
@@ -23,12 +23,12 @@ function SavedWorkouts(props) {
       setWorkouts(response.data.records)
     }
     getWorkouts()
-  }, [])
+  }, [deleted])
   //console.log(workouts)
 
   //how to get this delete button to work? Like 28 is like line 7 from showpage birds - doesn't work but also doesn't break code
   const handleDelete = async (id) => {
-    setDeleted(true)
+    setDeleted(false)
     setTimeout(async () => {
       const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog/${id}`
       await axios.delete(airtableURL, {
@@ -36,8 +36,8 @@ function SavedWorkouts(props) {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
         }
       })
-      workouts.setGetWorkouts((prevGetWorkouts) => !prevGetWorkouts) //something is up here
-      setDeleted(false)
+      //setGetWorkouts((prevGetWorkouts) => !prevGetWorkouts) //something is up here
+      setDeleted(true)
     }, 1)
   }
 
@@ -50,7 +50,7 @@ function SavedWorkouts(props) {
       <h2>Saved Workouts</h2>
     <div className="saved-workouts">
         {workouts.map((workout) => (
-          <div className="saved-workout-container">
+          <div key={workout.id} className="saved-workout-container">
             <p>Day: {workout.fields.day}</p>
             <p>Exercise: {workout.fields.exercise}</p>
             <p>Weight: {workout.fields.weight}</p>

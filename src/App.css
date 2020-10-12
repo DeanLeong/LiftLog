@@ -83,6 +83,7 @@
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+  background-color: #db5461;
 }
 
 .kgs-to-lbs {
@@ -95,4 +96,13 @@
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
+  background-color: #db5461;
+}
+
+.calculator-input {
+  background-color: white;
+}
+
+.calculator-bg {
+  background-color: #db5461;
 }
