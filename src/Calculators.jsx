@@ -55,5 +55,4 @@ function Calculators() {
 
 export default Calculators
 
-//I have a functional pounds input
-//I need to take that input and plug it into a mathematical operation
+//pr calculator?

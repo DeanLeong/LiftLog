@@ -5,8 +5,8 @@ function HomePage() {
     <div>
       <h2>Welcome to Liftlog!</h2>
       <p>Liftlog is designed to help keep track of your weightlifting workouts.</p>
-      <div className="homepage-info">
       <p className="info-top">Here you can: </p>
+      <div className="homepage-info">
       <ol className="homepage-list">
         <li>Submit a workout.</li>
         <li>See your saved workouts.</li>
