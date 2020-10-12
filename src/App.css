@@ -106,3 +106,30 @@
 .calculator-bg {
   background-color: #db5461;
 }
+
+.homepage-info {
+  display: flex;
+  border: 1px solid black;
+  height: 350px;
+  width: 300px;
+  margin-left: 25px;
+}
+
+.homepage-list {
+  height: 50px;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.info-top {
+  height: 10px;
+  width: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
