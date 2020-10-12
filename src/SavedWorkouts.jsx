@@ -51,11 +51,11 @@ function SavedWorkouts(props) {
     <div className="saved-workouts">
         {workouts.map((workout) => (
           <div key={workout.id} className="saved-workout-container">
-            <p>Day: {workout.fields.day}</p>
-            <p>Exercise: {workout.fields.exercise}</p>
-            <p>Weight: {workout.fields.weight}</p>
-            <p>Reps: {workout.fields.reps}</p>
-            <p>Notes: {workout.fields.notes}</p>
+            <p className="saved-workout-text">Day: {workout.fields.day}</p>
+            <p className="saved-workout-text">Exercise: {workout.fields.exercise}</p>
+            <p className="saved-workout-text">Weight: {workout.fields.weight}</p>
+            <p className="saved-workout-text">Reps: {workout.fields.reps}</p>
+            <p className="saved-workout-text">Notes: {workout.fields.notes}</p>
             <button onClick={(() => handleDelete(workout.id))} className="delete-button">Delete</button>
           </div>
         ))}

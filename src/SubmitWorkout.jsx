@@ -40,7 +40,7 @@ function SubmitWorkout(props) {
   }
 
   return (
-    <div>
+    <div className="submit-page">
       <h2>Submit A Workout</h2>
     <div className="submit-workout">
     <form onSubmit={handleSubmit} className="submit-form">
