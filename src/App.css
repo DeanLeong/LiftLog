@@ -1,11 +1,23 @@
 body {
   text-align: center;
   background-color: #92dce5;
+  margin-bottom: 20px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 /* button changes on hover? */
 .nav-buttons {
   background-color: #e9fff9;
+}
+
+.homepage-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .feds-embed {
@@ -76,6 +88,10 @@ body {
   background-color: #fde74c;
 }
 
+.delete-button:hover {
+  background-color: red;
+}
+
 .submit-workout {
   margin-top: 25px;
 }
@@ -126,14 +142,16 @@ body {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   width: 100%;
-  left: 0;
+  height: 20px;
   bottom: 0;
+  justify-content: space-between;
+  background-color: #8f857d;
 }
 
 .footer-text {
-  position: relative;
+  position: absolute;
   bottom: 0;
   height: 5px;
 }
@@ -167,9 +185,22 @@ body {
     display: grid;
     justify-content: center;
   }
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .homepage-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   .saved-workouts {
     display: grid;
     justify-content: center;
