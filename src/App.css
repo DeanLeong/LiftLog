@@ -29,17 +29,19 @@ h2 {
 }
 
 .homepage-container {
-  display: grid;
+  /* display: grid; */
   border: 1px solid black;
+  border-radius: 5px;
   width: 500px;
   background-color: #1c3144;
   box-shadow: 5px 5px #db5461;
   color: white;
+  margin: auto;
 }
 
-.feds-embed {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.info-box {
+  justify-content: center;
+  text-align: center;
 }
 
 .submit-workout {
@@ -54,6 +56,10 @@ h2 {
   border-radius: 5px;
   background-color: #1c3144;
   box-shadow: 5px 5px #db5461;
+}
+
+.form-submit-button {
+  background-color: #e9fff9;
 }
 
 .form-label {
@@ -165,11 +171,6 @@ h2 {
   color: white;
 }
 
-.usapl-embed {
-  display: grid;
-  justify-content: center;
-}
-
 .footer {
   position: absolute;
   width: 100%;
@@ -237,9 +238,14 @@ h2 {
 
 @media screen and (max-width: 800px) {
   .homepage-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    /* display: grid; */
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #1c3144;
+    box-shadow: 5px 5px #db5461;
+    color: white;
+    margin: auto;
   }
 
   .saved-workouts {
