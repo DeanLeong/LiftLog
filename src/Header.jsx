@@ -7,7 +7,7 @@ function Header() {
       <h1>LiftLog</h1>
       <nav>
         <button className="nav-buttons">
-          <Link to={`/HomePage`} className="nav-buttons">Home</Link>
+          <Link to={`/`} className="nav-buttons">Home</Link>
         </button>
         <button className="nav-buttons">
           <Link to={`/SubmitWorkout`} className="nav-buttons">Submit Workout</Link>

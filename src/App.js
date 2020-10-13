@@ -19,7 +19,7 @@ function App() {
         <Header />
       </div>
       <div className="home-page">
-      <Route path="/HomePage">
+      <Route exact path="/">
         <HomePage />
       </Route>
       </div>
