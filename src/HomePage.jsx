@@ -14,10 +14,6 @@ function HomePage() {
           <p>Use some weightlifting-related calculators.</p>
         </div>
       </div>
-      <div className="feds-embed">
-        <embed src="https://www.usapowerlifting.com/"></embed>
-        <embed src="https://meets.revolutionpowerlifting.com/"></embed>
-      </div>
       </div>
     </div>
   )

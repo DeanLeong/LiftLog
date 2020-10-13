@@ -1,3 +1,7 @@
+* {
+  font-family: "Fira Code";
+}
+
 body {
   text-align: center;
   background-color: #92dce5;
@@ -16,8 +20,6 @@ html {
 
 .homepage-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 .feds-embed {
@@ -73,7 +75,7 @@ html {
   grid-template-rows: auto;
   border: 1px solid black;
   border-radius: 5px;
-  height: 250px;
+  height: 265px;
   width: 300px;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -152,7 +154,7 @@ html {
   height: 20px;
   bottom: 0;
   justify-content: space-between;
-  background-color: #8f857d;
+  background-color: #e0dfd5;
 }
 
 .footer-text {
