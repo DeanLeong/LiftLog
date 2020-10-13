@@ -19,7 +19,7 @@ function App() {
         <Header />
       </div>
       <div className="home-page">
-      <Route exact path="/HomePage" >
+      <Route path="/HomePage">
         <HomePage />
       </Route>
       </div>
@@ -28,7 +28,7 @@ function App() {
         <SubmitWorkout />
       </Route>
       </div>
-      <div> {/*why does making skewercase mess with css?*/}
+      <div>
       <Route exact path="/SavedWorkouts">
         <SavedWorkouts />
       </Route>
