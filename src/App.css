@@ -41,7 +41,7 @@ h2 {
   width: 500px;
   background-color: #1c3144;
   box-shadow: 5px 5px #db5461;
-  color: white;
+  color: #f8f8ff;
   margin: auto;
 }
 
@@ -75,11 +75,11 @@ h2 {
 
 .submit-form {
   background-color: #1c3144;
-  color: white;
+  color: #f8f8ff;
 }
 
 .form-input {
-  background-color: white;
+  background-color: #f8f8ff;
 }
 
 .form-submit-button {
@@ -117,7 +117,7 @@ h2 {
 }
 
 .saved-workout-text {
-  color: white;
+  color: #f8f8ff;
 }
 
 .delete-button {
@@ -126,6 +126,7 @@ h2 {
 }
 
 .delete-button:hover {
+  transition: 0.5s;
   background-color: red;
 }
 
@@ -169,12 +170,12 @@ h2 {
 }
 
 .calculator-input {
-  background-color: white;
+  background-color: #f8f8ff;
 }
 
 .calculator-bg {
   background-color: #1c3144;
-  color: white;
+  color: #f8f8ff;
 }
 
 .footer {
@@ -256,7 +257,7 @@ h2 {
     width: 300px;
     background-color: #1c3144;
     box-shadow: 5px 5px #db5461;
-    color: white;
+    color: #f8f8ff;
     margin: auto;
   }
 
