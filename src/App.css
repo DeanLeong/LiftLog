@@ -26,6 +26,12 @@ h2 {
 .nav-buttons {
   background-color: #e9fff9;
   text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-buttons:hover {
+  color: #467599;
+  transition: 0.5s;
 }
 
 .homepage-container {
@@ -189,6 +195,12 @@ h2 {
 .footer-button {
   background-color: #e9fff9;
   text-decoration: none;
+  border-radius: 5px;
+}
+
+.footer-button:hover {
+  color: #467599;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 1300px) {
