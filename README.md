@@ -56,12 +56,12 @@ Post MVP:
 
 | Day        | Deliverable                                             | Status     |
 | ---------- | ------------------------------------------------------- | ---------- |
-| October 8  | Prompt / Wireframes / Priority Matrix / Timeframes      | Incomplete |
-| October 9  | Project Approval                                        | Incomplete |
-| October 10 | Core Application Structure (HTML, CSS, etc.)            | Incomplete |
-| October 10 | Pseudocode / actual code                                | Incomplete |
-| October 11 | Working Homepage                                        | Incomplete |
-| October 12 | Working Saved Workout page and Calc page                | Incomplete |
+| October 8  | Prompt / Wireframes / Priority Matrix / Timeframes      | Complete   |
+| October 9  | Project Approval                                        | Complete   |
+| October 10 | Core Application Structure (HTML, CSS, etc.)            | Complete   |
+| October 10 | Pseudocode / actual code                                | Complete   |
+| October 11 | Working Homepage                                        | Complete   |
+| October 12 | Working Saved Workout page and Calc page                | Complete   |
 | October 13 | Styling                                                 | Incomplete |
 | October 14 | MVP                                                     | Incomplete |
 | October 15 | Post MVP - Detailed Submission Forms, More/Less buttons | Incomplete |
