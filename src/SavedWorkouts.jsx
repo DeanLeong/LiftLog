@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-//import Search from "./Search"
+import SearchBar from "./SearchBar"
 
 
 
@@ -36,12 +36,11 @@ function SavedWorkouts(props) {
     }, 1)
   }
 
+
   return (
     <div>
       <h2>Saved Workouts</h2>
-    <div className="search">
-      <input type="text" name="search" className="search-input" placeholder="Search Workouts by Day"></input>
-    </div>
+      <SearchBar />
     <div className="saved-workouts">
         {workouts.map((workout) => (
           <div key={workout.id} className="saved-workout-container">
