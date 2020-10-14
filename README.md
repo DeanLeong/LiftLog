@@ -48,9 +48,9 @@ Post MVP:
 
 1 - More detailed submission forms, for example, the ability to add more exercises under the same day.
 
-2 - See more and see less buttons for the saved workouts.
+2 - Search through saved workouts? - Attempting
 
-3 - Search through saved workouts?
+3 - More detail on the homepage.
 
 ## Project Schedule
 
@@ -77,7 +77,7 @@ Post MVP:
 | Saved Page            |    H     |     15hrs      |     12.5      |    12.5     |
 | Calculator Page       |    l     |      3hrs      |       3       |      3      |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
-| CSS Styling           |    l     |     10hrs      |      12       |     12      |
+| CSS Styling           |    l     |     10hrs      |      14       |     14      |
 | Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
 
 Priortiry Matrix:
