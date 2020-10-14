@@ -78,6 +78,7 @@ Post MVP:
 | Calculator Page       |    l     |      3hrs      |       3       |      3      |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
 | CSS Styling           |    l     |     10hrs      |      12       |     12      |
+| Post MVP: Search      |    l     |     10hrs      |       0       |      0      |
 | Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
 
 Priortiry Matrix:
