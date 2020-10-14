@@ -4,15 +4,6 @@ function Calculators() {
   const [lbsValue, setLbsValue] = useState("")
   const [kgsValue, setKgsValue] = useState("")
 
-  // function lbsToKgs() {
-  //   let kgs = value / 2.2046
-  //   console.log(kgs)
-  //   return kgs
-  // }
-  // lbsToKgs()
-
-  
-  //How to get the calcs to run on click?
   //Made with help from https://www.w3schools.com/howto/howto_js_weight_converter.asp
   return (
     <div>
@@ -29,7 +20,7 @@ function Calculators() {
           value={lbsValue}
           onChange={(e) => setLbsValue(e.target.value)}
         />
-          {/* <button type="submit" className="lbs-to-kgs-submit">Calculate</button> */}
+
       </form>
         <p className="calculator-bg">Result: {lbsValue / 2.2046}</p>
       </div>
@@ -44,7 +35,6 @@ function Calculators() {
           value={kgsValue}
           onChange={(e) => setKgsValue(e.target.value)}
         />
-          {/* <button type="submit" className="kgs-to-lbs-submit">Calculate</button> */}
         </form>
         <p className="calculator-bg">Result: {kgsValue * 2.2046}</p>
         </div>
@@ -54,5 +44,3 @@ function Calculators() {
 }
 
 export default Calculators
-
-//pr calculator?

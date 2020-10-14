@@ -62,8 +62,8 @@ Post MVP:
 | October 10 | Pseudocode / actual code                                | Complete   |
 | October 11 | Working Homepage                                        | Complete   |
 | October 12 | Working Saved Workout page and Calc page                | Complete   |
-| October 13 | Styling                                                 | Incomplete |
-| October 14 | MVP                                                     | Incomplete |
+| October 13 | Styling                                                 | Complete   |
+| October 14 | MVP                                                     | Complete   |
 | October 15 | Post MVP - Detailed Submission Forms, More/Less buttons | Incomplete |
 | October 16 | Presentation                                            | Incomplete |
 
@@ -72,12 +72,12 @@ Post MVP:
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
 | Working with API      |    H     |      5hrs      |      2.5      |     2.5     |
-| Homepage              |    H     |     10hrs      |       6       |      6      |
+| Homepage              |    H     |     10hrs      |       8       |      8      |
 | Submit Form           |    H     |     10hrs      |       2       |      2      |
 | Saved Page            |    H     |     15hrs      |     12.5      |    12.5     |
 | Calculator Page       |    l     |      3hrs      |       3       |      3      |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
-| CSS Styling           |    l     |     10hrs      |       8       |      8      |
+| CSS Styling           |    l     |     10hrs      |      12       |     12      |
 | Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
 
 Priortiry Matrix:

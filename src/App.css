@@ -22,7 +22,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* button changes on hover? */
 .nav-buttons {
   background-color: #e9fff9;
   text-decoration: none;
@@ -35,7 +34,6 @@ h2 {
 }
 
 .homepage-container {
-  /* display: grid; */
   border: 1px solid black;
   border-radius: 5px;
   width: 500px;
@@ -106,8 +104,6 @@ h2 {
   border-radius: 5px;
   height: 265px;
   width: 300px;
-  /* margin-left: 15px;
-  margin-right: 15px; */
   margin: auto;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -251,7 +247,6 @@ h2 {
 
 @media screen and (max-width: 800px) {
   .homepage-container {
-    /* display: grid; */
     border: 1px solid black;
     border-radius: 5px;
     width: 300px;

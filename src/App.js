@@ -10,9 +10,6 @@ import HomePage from './HomePage';
 
 function App() {
 
-  //11-20 can be in a header comp
-  //app.js will hold all routes
-  //Make a Home and Calc Comp
   return (
     <div>
       <div className="header">

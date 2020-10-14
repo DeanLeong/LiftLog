@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import axios from "axios"
-//import baseURL from "./constants"
 
 
 function SubmitWorkout(props) {
@@ -31,7 +30,6 @@ function SubmitWorkout(props) {
         }
       }
     )
-    //props.setFetchLiftlog(!props.fetchLiftLogs) I guess I don't need this
     setDay("")
     setExercise("")
     setWeight("")
