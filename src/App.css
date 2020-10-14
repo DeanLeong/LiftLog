@@ -91,7 +91,7 @@ h2 {
 .saved-workouts {
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 25px;
   background-color: #92dce5;
   width: auto;
