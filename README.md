@@ -5,6 +5,7 @@
 ## Project Name
 
 LiftLog
+https://deanleongliftlog.netlify.app/
 
 ## Project Description
 
@@ -50,22 +51,22 @@ Post MVP:
 
 2 - Search through saved workouts? - Attempting
 
-3 - More detail on the homepage.
+3 - More detail on the homepage. - Done.
 
 ## Project Schedule
 
-| Day        | Deliverable                                             | Status     |
-| ---------- | ------------------------------------------------------- | ---------- |
-| October 8  | Prompt / Wireframes / Priority Matrix / Timeframes      | Complete   |
-| October 9  | Project Approval                                        | Complete   |
-| October 10 | Core Application Structure (HTML, CSS, etc.)            | Complete   |
-| October 10 | Pseudocode / actual code                                | Complete   |
-| October 11 | Working Homepage                                        | Complete   |
-| October 12 | Working Saved Workout page and Calc page                | Complete   |
-| October 13 | Styling                                                 | Complete   |
-| October 14 | MVP                                                     | Complete   |
-| October 15 | Post MVP - Detailed Submission Forms, More/Less buttons | Incomplete |
-| October 16 | Presentation                                            | Incomplete |
+| Day        | Deliverable                                        | Status     |
+| ---------- | -------------------------------------------------- | ---------- |
+| October 8  | Prompt / Wireframes / Priority Matrix / Timeframes | Complete   |
+| October 9  | Project Approval                                   | Complete   |
+| October 10 | Core Application Structure (HTML, CSS, etc.)       | Complete   |
+| October 10 | Pseudocode / actual code                           | Complete   |
+| October 11 | Working Homepage                                   | Complete   |
+| October 12 | Working Saved Workout page and Calc page           | Complete   |
+| October 13 | Styling                                            | Complete   |
+| October 14 | MVP                                                | Complete   |
+| October 15 | Post MVP                                           | Incomplete |
+| October 16 | Presentation                                       | Incomplete |
 
 ## Timeframes
 
@@ -77,7 +78,7 @@ Post MVP:
 | Saved Page            |    H     |     15hrs      |     12.5      |    12.5     |
 | Calculator Page       |    l     |      3hrs      |       3       |      3      |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
-| CSS Styling           |    l     |     10hrs      |      14       |     14      |
+| CSS Styling           |    l     |     10hrs      |      16       |     16      |
 | Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
 
 Priortiry Matrix:

@@ -75,6 +75,7 @@ h2 {
 
 .form-submit-button {
   background-color: #e9fff9;
+  border-radius: 5px;
 }
 
 .form-label {
