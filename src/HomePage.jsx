@@ -13,8 +13,12 @@ function HomePage() {
           <p>See your saved workouts.</p>
           <p>Use some weightlifting-related calculators.</p>
         </div>
+        </div>
       </div>
-      </div>
+      <div className="quote">
+        <p>"The mind is the limit. As long as the mind can envision the fact that you can do something, you can do it, as long as you really believe 100 percent."</p>
+        <p>- Arnold Schwarzenegger</p>
+      </div>  
     </div>
   )
 }

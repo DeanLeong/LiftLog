@@ -43,6 +43,17 @@ h2 {
   margin: auto;
 }
 
+.quote {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 800px;
+  background-color: #1c3144;
+  box-shadow: 5px 5px #db5461;
+  color: #f8f8ff;
+  margin: auto;
+  margin-top: 50px;
+}
+
 .info-box {
   justify-content: center;
   text-align: center;
@@ -180,7 +191,7 @@ h2 {
   height: 20px;
   bottom: 0;
   justify-content: space-between;
-  background-color: #e0dfd5;
+  background-color: #db5461;
 }
 
 .footer-text {
@@ -201,6 +212,10 @@ h2 {
 }
 
 @media screen and (max-width: 1300px) {
+  .quote {
+    width: 450px;
+  }
+
   .saved-workouts {
     display: grid;
     justify-content: center;
@@ -254,6 +269,10 @@ h2 {
     box-shadow: 5px 5px #db5461;
     color: #f8f8ff;
     margin: auto;
+  }
+
+  .quote {
+    width: 350px;
   }
 
   .saved-workouts {
