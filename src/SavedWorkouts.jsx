@@ -3,7 +3,7 @@ import axios from "axios"
 
 
 
-
+//Saved workouts displays all data from the API and also contains the delete function to delete any notes. Data is displayed starting at the most recently submitted page.
 function SavedWorkouts(props) { 
   const [workouts, setWorkouts] = useState([]);
   const [deleted, setDeleted] = useState(false)

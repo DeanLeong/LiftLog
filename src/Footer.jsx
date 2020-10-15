@@ -1,5 +1,6 @@
 import React from "react"
 
+//The footer includes my name and links to linkedin and github.
 function Footer() {
   return (
     <div className="footer">

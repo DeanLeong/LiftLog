@@ -1,5 +1,6 @@
 import React from "react"
 
+//The homepage is some information about the app and an inspirational quote from Arnold, of course.
 function HomePage() {
   return (
     <div>

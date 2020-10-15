@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
+//The header includes the h1 and navbar. Both are present on every page of the app and allow for simple website navigation.
 function Header() {
   return (
     <div>
