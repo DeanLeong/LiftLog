@@ -49,7 +49,7 @@ Post MVP:
 
 1 - More detailed submission forms, for example, the ability to add more exercises under the same day.
 
-2 - Search through saved workouts? - Attempting
+2 - Search through saved workouts? - Attempting - Didn't get working in time but this is something that would be great to come back to.
 
 3 - More detail on the homepage. - Done.
 
@@ -65,7 +65,7 @@ Post MVP:
 | October 12 | Working Saved Workout page and Calc page           | Complete   |
 | October 13 | Styling                                            | Complete   |
 | October 14 | MVP                                                | Complete   |
-| October 15 | Post MVP                                           | Incomplete |
+| October 15 | Post MVP                                           | Complete   |
 | October 16 | Presentation                                       | Incomplete |
 
 ## Timeframes
@@ -73,13 +73,13 @@ Post MVP:
 | Component             | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------- | :------: | :------------: | :-----------: | :---------: |
 | Working with API      |    H     |      5hrs      |      2.5      |     2.5     |
-| Homepage              |    H     |     10hrs      |       8       |      8      |
-| Submit Form           |    H     |     10hrs      |       2       |      2      |
+| Homepage              |    H     |     10hrs      |       2       |      2      |
+| Submit Form           |    H     |     10hrs      |       8       |      8      |
 | Saved Page            |    H     |     15hrs      |     12.5      |    12.5     |
 | Calculator Page       |    l     |      3hrs      |       3       |      3      |
 | Render Saved Workouts |    H     |     10hrs      |       2       |      2      |
-| CSS Styling           |    l     |     10hrs      |      16       |     16      |
-| Total                 |    H     |     50hrs      |     0hrs      |    0hrs     |
+| CSS Styling           |    l     |     10hrs      |      18       |     18      |
+| Total                 |    H     |     50hrs      |     48hrs     |    48hrs    |
 
 Priortiry Matrix:
 ![](https://i.imgur.com/COaiIzy.png)
@@ -112,3 +112,58 @@ I have the opportunity to look back at lessons and exercises to help me get the 
 ### Threats:
 
 I'm not the strongest coder, so a threat is getting stuck and not knowing what to do.
+
+### Code Snippet:
+
+```
+function SubmitWorkout() {
+  const [day, setDay] = useState("")
+  const [exercise, setExercise] = useState("")
+  const [weight, setWeight] = useState("")
+  const [reps, setReps] = useState("")
+  const [notes, setNotes] = useState("")
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    const fields = {
+      day,
+      exercise,
+      weight,
+      reps,
+      notes,
+    }
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/liftlog`
+
+    await axios.post(
+      airtableURL,
+      { fields },
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`
+        }
+      }
+    )
+    setDay("")
+    setExercise("")
+    setWeight("")
+    setReps("")
+    setNotes("")
+  }
+
+  return (
+    <div className="submit-page">
+      <h2>Submit A Workout</h2>
+    <div className="submit-workout">
+    <form onSubmit={handleSubmit} className="submit-form">
+      <label className="form-label" htmlFor="Day">Day:</label>
+        <input className="form-input"
+          name="Day"
+          type="text"
+          placeholder="Day"
+          value={day}
+          onChange={(e) => setDay(e.target.value)}
+        />
+```
+
+I'm pretty proud of my submission code because this is something I distinctly remember struggling with earlier in the unit. I planned on taking a good amount of time getting this to work but I was able to do it relatively quicky. Even though the code is simple, this is definitely not something that I would have been able to do just a few weeks ago, nevermind writing, styling and getting it fully functional in just a few hours. This feeling applies to the project overall. I was definitely struggling with React through the two weeks learning it, but when I sat down to start my project everything came together and left me feeling confident in taking on a more complex project in the future.
