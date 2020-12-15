@@ -66,7 +66,7 @@ Post MVP:
 | October 13 | Styling                                            | Complete   |
 | October 14 | MVP                                                | Complete   |
 | October 15 | Post MVP                                           | Complete   |
-| October 16 | Presentation                                       | Incomplete |
+| October 16 | Presentation                                       | Complete |
 
 ## Timeframes
 
